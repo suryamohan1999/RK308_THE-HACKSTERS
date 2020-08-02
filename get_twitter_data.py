@@ -93,7 +93,6 @@ class twitter_class:
             #print(img_list)
 
     
-#twitter_data()
 '''t1=twitter_class()
 t1.twitter_data()
 print(t1.tweet_list)
