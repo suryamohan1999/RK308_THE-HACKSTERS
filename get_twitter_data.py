@@ -87,9 +87,8 @@ class twitter_class:
         for media_file in self.media_files:
             wget.download(media_file,path+"img"+str(count)+".jpg")
             self.img_list.append(path+"img"+str(count)+".jpg")
-
             count=count+1
-            #print(img_list)
+            
 
     
 '''t1=twitter_class()
