@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import pymysql
 
 def add_result(idval,imgName,username,tweet):
@@ -8,10 +6,6 @@ def add_result(idval,imgName,username,tweet):
 
    # prepare a cursor object using cursor() method
    cursor = db.cursor()
-
-
-
-
    # Create table as per requirement
    sql = "INSERT INTO RESULT(ID , \
            IMAGENAME, USERNAME, 	TWEET) \
