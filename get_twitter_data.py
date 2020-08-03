@@ -83,7 +83,6 @@ class twitter_class:
                     self.profile_list.append(username)
 
         if not len(os.listdir("twitter_images")) == 0:
-            #print("empty")
             del_twitter_imgs()
         for media_file in self.media_files:
             wget.download(media_file,path+"img"+str(count)+".jpg")
