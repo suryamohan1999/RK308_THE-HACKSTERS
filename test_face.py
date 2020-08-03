@@ -33,8 +33,6 @@ def face_rec(k_i, uk_i):
                     result_list.append(j)
             except Exception as e:
                 result_list.append(False)
-                #print("error occured in recognizing")
-                #print(e)
 
         print(result_list)
         if True in result_list:
