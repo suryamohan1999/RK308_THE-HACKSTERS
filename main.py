@@ -26,7 +26,6 @@ except:
 db.close()
 print("MySQL connection is closed")
 
-#imgname="1593856377"
 
 known_img="E:/xampp_installed/htdocs/appupload/uploads/"+imgname+".jpg"
 
@@ -53,7 +52,6 @@ if face_detect(known_img):
         sys.exit(0)
 
     if not len(os.listdir("E:/xampp_installed/htdocs/appupload/results")) == 0:
-        #print("empty")
         delete_results()
     if not count()==0:
         delete_result_tbl()
