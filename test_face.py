@@ -39,7 +39,7 @@ def face_rec(k_i, uk_i):
         print(result_list)
         if True in result_list:
             match = True
-            return match
+        return match
 
     else:
         print("not allowed extension")
