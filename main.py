@@ -16,7 +16,6 @@ sql_query = "select * from tbl_img order by imgName DESC limit 1"
 try:
     cursor.execute(sql_query)
     record = cursor.fetchall()
-    #print(record)
     imgname=record[0][0]
 
     print(imgname)
