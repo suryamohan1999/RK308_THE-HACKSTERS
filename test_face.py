@@ -46,7 +46,7 @@ def face_rec(k_i, uk_i):
         return match
 
 
-#print(face_rec("dual2.jpg", "test2.txt"))
+
 
 
 
@@ -64,4 +64,4 @@ def face_detect(image):
     else :
         print("not allowed extension")
         return False
-#print(face_detect("test.txt"))
+
