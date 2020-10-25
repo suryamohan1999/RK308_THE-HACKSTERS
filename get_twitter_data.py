@@ -10,10 +10,10 @@ class twitter_class:
 
     def __init__(self):
  
-        self.consumer_key = //your consumer key from your twitter developer account
-        self.consumer_secret = // your consumer secret
-        self.access_token =//your access token
-        self.access_secret = // access secret
+        self.consumer_key = #your consumer key from your twitter developer account
+        self.consumer_secret = # your consumer secret
+        self.access_token =#your access token
+        self.access_secret = # access secret
 
         self.usernames=["THacksters","Surya_Mohan_17"]
 
